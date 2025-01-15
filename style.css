@@ -2,6 +2,7 @@ body {
     font-family: Roboto, sans-serif;
     display: flex;
     flex-direction: column;
+    margin: 0;
 }
 
 .header {
@@ -9,11 +10,12 @@ body {
     justify-content: space-between;
     align-items: center;
     background-color: #1f2937;
-    padding: 5px 48px;
+    padding: 0 150px;
 }
 
 .header-links a {
     color: #e5e7eb;
+    font-size: smaller;
 }
 
 .logo {
@@ -36,7 +38,7 @@ ul {
 .awesome {
     display: flex;
     background-color: #1f2937;
-    padding: 50px;
+    padding: 50px 150px;
     gap: 50px;
 }
 
@@ -70,11 +72,21 @@ ul {
 .random-info {
     display: flex;
     flex-direction: column;
+    padding: 50px;
+}
+
+.rando-header {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+    text-align: center;
 }
 
 .cards {
     display: flex;
     justify-content: center;
+    gap: 25px;
+    margin: 50px 0;
 }
 
 .card {
@@ -82,7 +94,6 @@ ul {
     flex-direction: column;
     align-items: center;
     flex-basis: 150px;
-    margin: 15px;
 }
 
 .card-text {
@@ -96,13 +107,6 @@ ul {
     border-radius: 15px;
 }
 
-.rando-header {
-    font-size: 36px;
-    color: #1f2937;
-    font-weight: 900;
-    text-align: center;
-}
-
 .quote {
     background-color: #e5e7eb;
     padding: 75px;
@@ -111,31 +115,35 @@ ul {
 .quote-text {
     font-size: 36px;
     font-style: italic;
+    font-weight: 300;
     color: #1f2937;
-    padding: 0px 50px 0px;
+    padding: 0px 185px 0px;
 }
 
 .quote-attr {
     text-align: right;
     font-weight: bold;
-    padding: 0 25px 0 0;
+    padding: 0 225px 0;
 }
 
 
 button {
     background-color: #3882f6;
     color: #f9faf8;
+    font-weight: bold;
+    font-size: 16px;
     max-width: fit-content;
-    padding: 5px 16px;
+    padding: 10px 32px;
     border-radius: 5px;
+    border-width: 0;
 }
 
 .call-to-action {
     display: flex;
     background-color: #3882f6;
     color: #e5e7eb;
-    padding: 40px 50px;
-    margin: 80px 100px;
+    padding: 50px 110px;
+    margin: 80px 150px;
     justify-content: space-between;
     border-radius: 10px;
 }
